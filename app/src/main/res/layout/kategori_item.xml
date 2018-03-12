@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp" android:layout_height="150dp"
+    android:id="@+id/relative_layout_kategori"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/kategori_image"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="#cccccc" />
+
+    <TextView
+        android:id="@+id/nama_kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="Nama Kategori"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</RelativeLayout>
